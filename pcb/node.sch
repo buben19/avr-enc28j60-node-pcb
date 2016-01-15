@@ -16609,8 +16609,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="300nF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="JP1" library="jumper" deviceset="JP1E" device=""/>
-<part name="JP3" library="jumper" deviceset="JP1E" device=""/>
+<part name="IVR" library="jumper" deviceset="JP1E" device=""/>
+<part name="EVR" library="jumper" deviceset="JP1E" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16653,8 +16653,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND3" gate="1" x="45.72" y="12.7"/>
 <instance part="C4" gate="G$1" x="30.48" y="30.48"/>
 <instance part="C5" gate="G$1" x="60.96" y="30.48"/>
-<instance part="JP1" gate="A" x="152.4" y="83.82"/>
-<instance part="JP3" gate="A" x="68.58" y="43.18"/>
+<instance part="IVR" gate="A" x="152.4" y="83.82"/>
+<instance part="EVR" gate="A" x="68.58" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -16764,7 +16764,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="30.48" y="38.1"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="IVR" gate="A" pin="2"/>
 <wire x1="154.94" y1="81.28" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <label x="160.02" y="78.74" size="1.778" layer="95"/>
@@ -16948,7 +16948,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="EVR" gate="A" pin="2"/>
 <wire x1="71.12" y1="40.64" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
@@ -16989,7 +16989,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="MCU" gate="G$1" pin="RAW"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="IVR" gate="A" pin="1"/>
 <wire x1="142.24" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="78.74" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -17002,7 +17002,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="33.02" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <junction x="60.96" y="38.1"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="EVR" gate="A" pin="1"/>
 <wire x1="68.58" y1="38.1" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>

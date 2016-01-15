@@ -35,7 +35,7 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -162,8 +162,8 @@
 <wire x1="50.0126" y1="0" x2="50.0126" y2="68.5038" width="0" layer="20"/>
 <wire x1="50.0126" y1="68.5038" x2="0" y2="68.5038" width="0" layer="20"/>
 <wire x1="0" y1="68.5038" x2="0" y2="0" width="0" layer="20"/>
-<text x="32.258" y="66.294" size="1.4224" layer="16" font="vector" ratio="13" rot="MR0">IOT NODE v1.1</text>
-<text x="1.524" y="44.45" size="1.016" layer="1" font="vector" ratio="13" rot="R90">ivo.slanina@gmail.com</text>
+<text x="32.258" y="66.294" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">IOT NODE v1.1</text>
+<text x="1.524" y="44.45" size="1.016" layer="21" font="vector" ratio="15" rot="R90">ivo.slanina@gmail.com</text>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -1920,31 +1920,82 @@ TS-003</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ICSP" library="pinhead" package="2X03" value="" x="25.4" y="45.212" locked="yes" rot="R90"/>
-<element name="MCU" library="diy-modules" package="ARDUINO-PRO-MINI#SMP" value="ARDUINO-PRO-MINI-5.0V#SMP" x="11.938" y="31.75" rot="R90"/>
-<element name="JP2" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="10.922" y="-2.54" locked="yes">
+<element name="ICSP" library="pinhead" package="2X03" value="" x="25.4" y="45.212" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.432" y="40.513" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="29.845" y="41.402" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="MCU" library="diy-modules" package="ARDUINO-PRO-MINI#SMP" value="ARDUINO-PRO-MINI-5.0V#SMP" x="11.938" y="31.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.778" y="31.75" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="22.098" y="31.75" size="1.27" layer="27" rot="R90" align="top-center"/>
+</element>
+<element name="JP2" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="10.922" y="-2.54" locked="yes" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08197" x="70.612" y="-53.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7.112" y="2.54" size="0.4064" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="7.112" y="1.27" size="0.4064" layer="27"/>
 </element>
-<element name="U$1" library="diy-modules" package="ETHERNET-ENC28J60-MINI" value="ETHERNET-ENC28J60-MINI" x="48.26" y="0" locked="yes" rot="R90"/>
-<element name="J1" library="SparkFun-Connectors" package="RJ11-6" value="RJ11" x="36.83" y="63.754" locked="yes" rot="R180">
+<element name="U$1" library="diy-modules" package="ETHERNET-ENC28J60-MINI" value="ETHERNET-ENC28J60-MINI" x="48.26" y="0" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.97" y="4.4" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="49.53" y="25.4" size="1.27" layer="27" rot="R90" align="top-center"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" package="RJ11-6" value="RJ11" x="36.83" y="63.754" locked="yes" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08590" x="-26.67" y="98.044" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.37" y="61.214" size="0.4064" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="39.37" y="62.484" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="RJ11-6" value="RJ11" x="13.208" y="63.754" locked="yes" rot="R180">
+<element name="J2" library="SparkFun-Connectors" package="RJ11-6" value="RJ11" x="13.208" y="63.754" locked="yes" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08590" x="-7.112" y="120.904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="15.748" y="61.214" size="0.4064" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="15.748" y="62.484" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="U$2" library="OK1CDJ-E6" package="DC-DC" value="DC-DC-SMALL" x="26.67" y="20.828"/>
-<element name="LED1" library="adafruit" package="LED3MM" value="" x="24.892" y="58.166" locked="yes" rot="R270"/>
-<element name="R1" library="rcl" package="R0805" value="150R" x="24.892" y="52.832" rot="MR270"/>
-<element name="C2" library="rcl" package="C0805" value="100nF" x="9.144" y="51.308" rot="MR270"/>
-<element name="C3" library="rcl" package="C0805" value="100nF" x="32.766" y="51.308" rot="MR270"/>
-<element name="C1" library="rcl" package="E2,5-6" value="" x="26.416" y="12.192" rot="R270"/>
-<element name="R2" library="rcl" package="R0805" value="10k" x="34.798" y="51.308" rot="MR90"/>
-<element name="R3" library="rcl" package="R0805" value="10k" x="11.176" y="51.308" rot="MR90"/>
-<element name="IC1" library="linear" package="TO252" value="7805DT" x="11.938" y="26.924"/>
-<element name="C4" library="rcl" package="C0805" value="300nF" x="9.652" y="18.796" rot="R270"/>
-<element name="C5" library="rcl" package="C0805" value="100nF" x="14.224" y="18.796" rot="R270"/>
-<element name="JP1" library="jumper" package="JP1" value="" x="2.54" y="12.192" rot="R180"/>
-<element name="JP3" library="jumper" package="JP1" value="" x="21.336" y="12.192"/>
+<element name="U$2" library="OK1CDJ-E6" package="DC-DC" value="DC-DC-SMALL" x="26.67" y="20.828" smashed="yes"/>
+<element name="LED1" library="adafruit" package="LED3MM" value="" x="24.892" y="58.166" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.987" y="54.991" size="1.27" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="23.241" y="56.261" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R1" library="rcl" package="R0805" value="150R" x="24.892" y="52.832" smashed="yes" rot="MR270">
+<attribute name="NAME" x="23.495" y="50.8" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
+<attribute name="VALUE" x="27.432" y="53.467" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="C2" library="rcl" package="C0805" value="100nF" x="9.144" y="51.308" smashed="yes" rot="MR270">
+<attribute name="NAME" x="7.62" y="49.022" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
+<attribute name="VALUE" x="11.684" y="52.578" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="C3" library="rcl" package="C0805" value="100nF" x="32.766" y="51.308" smashed="yes" rot="MR270">
+<attribute name="NAME" x="29.21" y="50.8" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
+<attribute name="VALUE" x="35.306" y="52.578" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="C1" library="rcl" package="E2,5-6" value="" x="26.416" y="12.192" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.527" y="7.874" size="1.27" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="23.749" y="9.525" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R2" library="rcl" package="R0805" value="10k" x="34.798" y="51.308" smashed="yes" rot="MR90">
+<attribute name="NAME" x="37.973" y="49.53" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
+<attribute name="VALUE" x="32.258" y="50.673" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="R3" library="rcl" package="R0805" value="10k" x="11.176" y="51.308" smashed="yes" rot="MR90">
+<attribute name="NAME" x="10.541" y="49.022" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
+<attribute name="VALUE" x="8.636" y="50.673" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="IC1" library="linear" package="TO252" value="7805DT" x="11.938" y="26.924" smashed="yes">
+<attribute name="NAME" x="13.462" y="34.29" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="17.018" y="24.384" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C4" library="rcl" package="C0805" value="300nF" x="9.652" y="18.796" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.922" y="16.51" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="7.112" y="20.066" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C5" library="rcl" package="C0805" value="100nF" x="14.224" y="18.796" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.494" y="16.51" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="11.684" y="20.066" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="IVR" library="jumper" package="JP1" value="" x="2.54" y="12.192" smashed="yes" rot="R180">
+<attribute name="NAME" x="1.016" y="8.001" size="1.27" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-0.381" y="14.732" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="EVR" library="jumper" package="JP1" value="" x="21.336" y="12.192" smashed="yes">
+<attribute name="NAME" x="19.558" y="8.001" size="1.27" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="24.257" y="9.652" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1963,10 +2014,6 @@ TS-003</description>
 <vertex x="-0.254" y="-0.254"/>
 <vertex x="50.292" y="-0.254"/>
 <vertex x="50.292" y="68.834"/>
-<vertex x="32.766" y="68.834"/>
-<vertex x="32.766" y="65.532"/>
-<vertex x="16.002" y="65.532"/>
-<vertex x="16.002" y="68.834"/>
 </polygon>
 <via x="3.048" y="3.048" extent="1-16" drill="3.2" shape="square"/>
 <via x="29.21" y="2.032" extent="1-16" drill="1"/>
@@ -1982,10 +2029,6 @@ TS-003</description>
 <polygon width="0.4064" layer="1">
 <vertex x="50.292" y="68.834"/>
 <vertex x="-0.254" y="68.834"/>
-<vertex x="-0.254" y="62.23"/>
-<vertex x="2.286" y="62.23"/>
-<vertex x="2.286" y="43.688"/>
-<vertex x="-0.254" y="43.688"/>
 <vertex x="-0.254" y="-0.254"/>
 <vertex x="50.292" y="-0.254"/>
 </polygon>
@@ -2020,7 +2063,7 @@ TS-003</description>
 <contactref element="JP2" pad="PWR"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="C4" pad="1"/>
-<contactref element="JP1" pad="2"/>
+<contactref element="IVR" pad="2"/>
 <wire x1="2.54" y1="10.922" x2="10.684" y2="10.922" width="1.27" layer="16"/>
 <wire x1="10.684" y1="10.922" x2="10.922" y2="11.16" width="1.27" layer="16"/>
 <wire x1="10.922" y1="11.16" x2="13.192" y2="11.16" width="1.27" layer="16"/>
@@ -2175,7 +2218,7 @@ TS-003</description>
 <contactref element="C3" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R3" pad="2"/>
-<contactref element="JP3" pad="2"/>
+<contactref element="EVR" pad="2"/>
 <wire x1="4.318" y1="26.67" x2="2.794" y2="26.67" width="0.8128" layer="16"/>
 <wire x1="2.794" y1="26.67" x2="1.778" y2="27.686" width="0.8128" layer="16"/>
 <wire x1="1.778" y1="27.686" x2="1.778" y2="54.356" width="0.8128" layer="16"/>
@@ -2231,14 +2274,14 @@ TS-003</description>
 </signal>
 <signal name="N$2">
 <contactref element="MCU" pad="J6.1"/>
-<contactref element="JP1" pad="1"/>
+<contactref element="IVR" pad="1"/>
 <wire x1="2.54" y1="13.462" x2="2.54" y2="17.272" width="1.27" layer="16"/>
 <wire x1="2.54" y1="17.272" x2="4.318" y2="19.05" width="1.27" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="2"/>
 <contactref element="C5" pad="1"/>
-<contactref element="JP3" pad="1"/>
+<contactref element="EVR" pad="1"/>
 <wire x1="14.218" y1="22.124" x2="14.218" y2="19.752" width="0.6096" layer="1"/>
 <wire x1="14.218" y1="19.752" x2="14.224" y2="19.746" width="0.6096" layer="1"/>
 <wire x1="14.224" y1="19.746" x2="15.56" y2="19.746" width="0.6096" layer="1"/>
