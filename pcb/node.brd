@@ -1964,7 +1964,7 @@ TS-003</description>
 <attribute name="NAME" x="29.21" y="50.8" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="35.306" y="52.578" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C1" library="rcl" package="E2,5-6" value="" x="26.416" y="12.192" smashed="yes" rot="R270">
+<element name="C1" library="rcl" package="E2,5-6" value="220uF" x="26.416" y="12.192" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.527" y="7.874" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="23.749" y="9.525" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>

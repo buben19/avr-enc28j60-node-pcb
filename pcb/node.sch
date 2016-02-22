@@ -16601,7 +16601,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="150R"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="220uF"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="IC1" library="linear" deviceset="78*" device="DT" technology="05"/>
@@ -16615,6 +16615,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="218.44" y="20.32" size="2.54" layer="97" font="vector">v1.2</text>
 </plain>
 <instances>
 <instance part="ICSP" gate="A" x="226.06" y="55.88"/>
