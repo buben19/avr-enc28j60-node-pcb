@@ -16598,7 +16598,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="150R"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="180R"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="220uF"/>

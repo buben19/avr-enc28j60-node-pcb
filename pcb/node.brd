@@ -1952,7 +1952,7 @@ TS-003</description>
 <attribute name="NAME" x="22.987" y="54.991" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="23.241" y="56.261" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R1" library="rcl" package="R0805" value="150R" x="24.892" y="52.832" smashed="yes" rot="MR270">
+<element name="R1" library="rcl" package="R0805" value="180R" x="24.892" y="52.832" smashed="yes" rot="MR270">
 <attribute name="NAME" x="23.495" y="50.8" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="27.432" y="53.467" size="1.27" layer="28" rot="MR270"/>
 </element>
