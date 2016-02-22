@@ -16607,7 +16607,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="IC1" library="linear" deviceset="78*" device="DT" technology="05"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="300nF"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="330nF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="IVR" library="jumper" deviceset="JP1E" device=""/>
 <part name="EVR" library="jumper" deviceset="JP1E" device=""/>

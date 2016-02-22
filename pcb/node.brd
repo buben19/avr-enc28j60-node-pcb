@@ -1980,7 +1980,7 @@ TS-003</description>
 <attribute name="NAME" x="13.462" y="34.29" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="17.018" y="24.384" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C4" library="rcl" package="C0805" value="300nF" x="9.652" y="18.796" smashed="yes" rot="R270">
+<element name="C4" library="rcl" package="C0805" value="330nF" x="9.652" y="18.796" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.922" y="16.51" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="7.112" y="20.066" size="1.27" layer="27" rot="R270"/>
 </element>
