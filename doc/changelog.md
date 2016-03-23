@@ -1,4 +1,4 @@
-# IoT Node changelog
+# AVR ENC28J60 Node changelog
 
 ## v1.0
 
@@ -17,3 +17,9 @@
  - Added jumper for enabling internal voltage regulator (IVR).
  - Added 10k pull-up resistors to DHT-22 data line.
  - Replaced notification LED current limiting resistor to SMD variant.
+
+## v1.1.1
+
+ - Fixed version number in schematic file.
+ - Changed board label to "AVR ENC28J60 NODE".
+ - Updated some part names.
